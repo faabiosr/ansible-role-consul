@@ -1,4 +1,6 @@
 # Ansible Role: Consul
+[![Build Status](https://img.shields.io/travis/fabiorphp/ansible-role-consul/master.svg?style=flat-square)](https://travis-ci.org/fabiorphp/ansible-role-consul)
+
 An ansible role to install and configure Consul agent.
 
 ## Requirements
