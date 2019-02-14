@@ -10,6 +10,15 @@ galaxy_info:
     - name: EL
       versions:
         - 7
+    - name: Amazon
+      versions:
+        - 2017.12
+    - name: Debian
+      versions:
+        - stretch
+    - name: Ubuntu
+      versions:
+        - bionic
   galaxy_tags:
     - hashicorp
     - consul
