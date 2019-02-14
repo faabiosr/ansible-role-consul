@@ -5,6 +5,11 @@ services: docker
 env:
   global:
     - ROLE_NAME: consul
+  matrix:
+    - MOLECULE_DISTRO: centos7
+    - MOLECULE_DISTRO: amazonlinux2
+    - MOLECULE_DISTRO: debian9
+    - MOLECULE_DISTRO: ubuntu1804
 
 install:
   - pip install -r requirements.txt
