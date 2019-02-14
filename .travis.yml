@@ -8,7 +8,6 @@ env:
   matrix:
     - MOLECULE_DISTRO: centos7
     - MOLECULE_DISTRO: amazonlinux2
-    - MOLECULE_DISTRO: debian9
     - MOLECULE_DISTRO: ubuntu1804
 
 install:
@@ -21,3 +20,6 @@ before_script:
 
 script:
   - molecule test
+
+notifications:
+  webhooks: https://galaxy.ansible.com/api/v1/notifications/
