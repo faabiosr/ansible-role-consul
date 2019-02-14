@@ -68,5 +68,5 @@ def test_consul_configurations(host, file):
 
 
 def test_consul_systemd_enabled(host):
-    assert host.service('consul.service').is_enabled
-    assert host.service('consul.service').is_running
+    assert host.service('consul').is_enabled
+    assert host.service('consul').is_running
